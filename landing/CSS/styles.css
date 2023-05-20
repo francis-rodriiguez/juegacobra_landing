@@ -91,7 +91,7 @@ footer {
       rgba(0, 17, 60, 0.75),
       rgba(0, 17, 60, 0.75)
     ),
-    url(images/lluvia_de_dinero.jpg);
+    url(../images/lluvia_de_dinero.jpg);
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
@@ -104,7 +104,7 @@ footer {
       rgba(0, 17, 60, 0.75),
       rgba(0, 17, 60, 0.75)
     ),
-    url(images/mujer_feliz.jpg);
+    url(../images/mujer_feliz.jpg);
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
