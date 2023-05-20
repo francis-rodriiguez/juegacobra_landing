@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-size: 60px;
+  color: #031f3d;
+  font-weight: 700;
+  margin-top: 100px;
+}
+
+h2 {
+  color: white;
+  font-weight: 600;
+  font-size: 48px;
+}
+
+h3 {
+  color: white;
+  font-weight: 600;
+  font-size: 38px;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+}
+
+footer {
+  background-color: #031f3d;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  padding-top: 20px;
+}
+
+.tiposdequinelas {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.navbar-light .navbar-toggler {
+  color: #fff !important;
+  border-color: #fff !important;
+}
+
+.navbar {
+  background-color: #031f3d;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.gradiant {
+  height: 90vh;
+  width: auto;
+  background-color: #f9ae17;
+  background-image: radial-gradient(
+      at 47% 33%,
+      hsl(210, 0%, 100%) 0,
+      transparent 59%
+    ),
+    radial-gradient(at 82% 65%, hsl(210, 0%, 100%) 0, transparent 55%);
+}
+
+.header {
+  position: relative;
+  height: 90vh;
+}
+
+.glass {
+  backdrop-filter: blur(10px) saturate(180%);
+  -webkit-backdrop-filter: blur(10px) saturate(180%);
+  background-color: rgba(255, 255, 255, 0.45);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+  padding: 40px;
+}
+
+.seccion {
+  background-image: linear-gradient(
+      rgba(0, 17, 60, 0.75),
+      rgba(0, 17, 60, 0.75)
+    ),
+    url(images/lluvia_de_dinero.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.seccion2 {
+  background-image: linear-gradient(
+      rgba(0, 17, 60, 0.75),
+      rgba(0, 17, 60, 0.75)
+    ),
+    url(images/mujer_feliz.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  padding-top: 100px;
+}
+
+#hombre-jugando {
+  position: absolute;
+  bottom: 0;
+  height: 100%;
+  width: auto;
+}
+
+#apuestas {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#conecta_amigos {
+  padding-top: 100px;
+}
+
+@media (max-width: 768px) {
+  section {
+    padding: 30px;
+  }
+
+  h1 {
+    font-size: 40px;
+    color: #031f3d;
+    font-weight: 700;
+    margin-top: 100px;
+  }
+
+  h2 {
+    color: white;
+    font-weight: 600;
+    font-size: 38px;
+  }
+
+  h3 {
+    color: white;
+    font-weight: 600;
+    font-size: 28px;
+  }
+
+  footer {
+    padding-top: 20px;
+    margin: 0px;
+  }
+
+  .header {
+    position: relative;
+    height: 85vh;
+  }
+
+  .glass {
+    padding: 20px;
+    margin-bottom: 50px;
+  }
+
+  #apuestas {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  #conecta_amigos {
+    padding-top: 50px;
+  }
+
+  #hombre-jugando {
+    position: absolute;
+    bottom: 0;
+    height: 60%;
+    width: auto;
+  }
+}
